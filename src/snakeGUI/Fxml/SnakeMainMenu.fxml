@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #0095B6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snakeGUI.Controllers.MainMenuController">
+   <children>
+      <AnchorPane prefHeight="141.0" prefWidth="500.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label layoutX="131.0" layoutY="18.0" prefHeight="61.0" prefWidth="238.0" text="SnaKe">
+               <font>
+                  <Font name="Comic Sans MS" size="80.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="startButton" layoutX="103.0" layoutY="200.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Start">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitButton" layoutX="103.0" layoutY="420.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Quit">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutMeButton" layoutX="103.0" layoutY="365.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="About us">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="settingsButton" layoutX="103.0" layoutY="255.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Settings">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="recordsButton" layoutX="103.0" layoutY="310.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Records">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="103.0" layoutY="465.0" prefHeight="21.0" prefWidth="294.0" text="2018, Voronezh" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nickNameField" alignment="CENTER" layoutX="101.0" layoutY="153.0" prefHeight="31.0" prefWidth="294.0" promptText="Enter your nickname" text="NanoToster" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #0095B6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snakeGUI.Controllers.RecordsWindowController">
+    <children>
+        <AnchorPane prefHeight="141.0" prefWidth="500.0" style="-fx-background-color: #fafafa;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="131.0" layoutY="18.0" prefHeight="61.0" prefWidth="238.0" text="SnaKe">
+                    <font>
+                        <Font name="Comic Sans MS" size="80.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="backButton" layoutX="103.0" layoutY="420.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="294.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Back" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="103.0">
+            <font>
+                <Font name="Times New Roman Bold Italic" size="23.0" />
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutX="103.0" layoutY="465.0" prefHeight="21.0" prefWidth="294.0" text="2018, Voronezh" textAlignment="CENTER" AnchorPane.bottomAnchor="8.0">
+            <font>
+                <Font name="Times New Roman Bold Italic" size="23.0" />
+            </font>
+        </Label>
+      <TextArea fx:id="highScoresArea" layoutX="138.0" layoutY="192.0" prefHeight="221.0" prefWidth="225.0" text="&#10;&#10;&#10;&#10;" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="138.0" AnchorPane.rightAnchor="137.0" />
+      <Label alignment="CENTER" layoutX="103.0" layoutY="141.0" prefHeight="21.0" prefWidth="294.0" text="High Scores" textAlignment="CENTER" textFill="#ffcdcd" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="103.0">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

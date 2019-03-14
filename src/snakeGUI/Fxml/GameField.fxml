@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #0095B6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snakeGUI.Controllers.GameFieldController">
+    <children>
+        <Label alignment="CENTER" layoutX="14.0" layoutY="659.0" prefHeight="21.0" prefWidth="294.0" text="2018, Voronezh" textAlignment="CENTER" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0">
+            <font>
+                <Font name="Times New Roman Bold Italic" size="23.0" />
+            </font>
+        </Label>
+      <Canvas fx:id="gameFieldCanvas" height="574.0" layoutY="52.0" style="visibility: true;" visible="false" width="700.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="128.0" text="Your score:" textAlignment="CENTER" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Label>
+        <Button fx:id="exitButton" layoutX="503.0" layoutY="637.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="183.0" style="-fx-background-color: #0095B6; -fx-border-color: #641C34; -fx-border-radius: 5;" text="Exit" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+            <font>
+                <Font name="Times New Roman Bold Italic" size="23.0" />
+            </font>
+        </Button>
+      <Label fx:id="scoreLabel" alignment="CENTER" layoutX="150.0" layoutY="14.0" prefHeight="27.0" prefWidth="128.0" text="score" textAlignment="CENTER" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="23.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
